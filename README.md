@@ -1,5 +1,11 @@
 # Network Sentinel
 
+![PHP](https://img.shields.io/badge/PHP-8.1+-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL%20%2F%20MariaDB-8.0+-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES2020-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Apache](https://img.shields.io/badge/Apache-XAMPP%20%2F%20WAMP-D22128?style=flat-square&logo=apache&logoColor=white)
+
 Network Sentinel is a lightweight web-based network monitoring dashboard for local PCs. It uses a PHP and MySQL web app for authentication, dashboards, device management, alerts, and exports, plus an optional Python sensor that reports per-device traffic statistics.
 
 This version is designed to run on a simple XAMPP/WAMP-style PHP stack. It does not require Docker, Redis, MinIO, or Nginx.
@@ -14,6 +20,20 @@ This version is designed to run on a simple XAMPP/WAMP-style PHP stack. It does 
 - Admin controls for users, roles, bans, devices, and token rotation
 - Optional Windows auto-start helper for the Python sensor
 - Simple MySQL/MariaDB schema included in `database.sql`
+
+## Screenshots
+
+| Login | Registration |
+| --- | --- |
+| ![Network Sentinel login page](docs/screenshots/login.jpg) | ![Network Sentinel registration page](docs/screenshots/registration.jpg) |
+
+| Dashboard | Sensor |
+| --- | --- |
+| ![Network Sentinel dashboard](docs/screenshots/dashboard.jpg) | ![Network Sentinel sensor page](docs/screenshots/sensor.jpg) |
+
+| Device Network | User Management |
+| --- | --- |
+| ![Device network page](docs/screenshots/device-network.jpg) | ![User management page](docs/screenshots/user-management.jpg) |
 
 ## Tech Stack
 
